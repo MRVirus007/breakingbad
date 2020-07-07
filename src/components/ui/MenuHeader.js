@@ -54,12 +54,9 @@ const MenuHeader = () => {
         show={show}
         onHide={() => setShow(false)}
         dialogClassName="modal-90w"
-        aria-labelledby="example-custom-modal-styling-title"
       >
         <Modal.Header closeButton>
-          <Modal.Title id="example-custom-modal-styling-title">
-            Episodes
-          </Modal.Title>
+          <Modal.Title>Episodes</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <EpisodeGrid episodes={episodes} />
